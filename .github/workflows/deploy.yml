@@ -6,7 +6,8 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
+    runs-on: ubuntu-latest
     steps:
       - uses: jsmrcaga/action-netlify-deploy@v1.1.0
         with:
